@@ -17,9 +17,9 @@
       </li>
       <li class="nav-item">
         <sidenav-item
-          url="/tables"
-          :class="getRoute() === 'tables' ? 'active' : ''"
-          :navText="this.$store.state.isRTL ? 'الجداول' : 'Tables'"
+          url="/TodoList"
+          :class="getRoute() === 'TodoList' ? 'active' : ''"
+          :navText="this.$store.state.isRTL ? 'الجداول' : 'TodoList'"
         >
           <template v-slot:icon>
             <i

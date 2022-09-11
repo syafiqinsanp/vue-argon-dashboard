@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
+import TodoList from "../views/TodoList.vue";
 import Tables from "../views/Tables.vue";
 import Billing from "../views/Billing.vue";
 import VirtualReality from "../views/VirtualReality.vue";
@@ -20,9 +21,9 @@ const routes = [
     component: Dashboard,
   },
   {
-    path: "/tables",
-    name: "Tables",
-    component: Tables,
+    path: "/TodoList",
+    name: "TodoList",
+    component: TodoList,
   },
   {
     path: "/billing",
